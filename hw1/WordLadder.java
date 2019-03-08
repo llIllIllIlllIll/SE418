@@ -10,12 +10,14 @@ public class WordLadder {
         Scanner in=new Scanner(System.in);
         filename=in.next();
         FileInputStream ifstream;
+        System.out.println("Please wait a few seconds...");
         try{
             ifstream= new FileInputStream(filename);
             int ch;
             char c;
             char[] word=new char[100];
             int index=0;
+            int ct=0;
             while((ch=ifstream.read())!=-1){
                 c=(char)ch;
                 if(Character.isLetter(c)){
@@ -37,7 +39,7 @@ public class WordLadder {
         }
         System.out.println("Input finished. Initialization down.");
     }
-    void search(String word2,String word1){
+    LinkedList<String> search(String word2,String word1){
         if(!isInWords(word1)||!isInWords(word2)){
             System.out.println(word1+" or "+word2+" not in "+filename);
             System.exit(1);
@@ -73,12 +75,7 @@ public class WordLadder {
                                 LinkedList<String> newLadder=new LinkedList<String>(tempLadder);
                                 newLadder.add(newLast);
                                 if(newLast.equals(word1)){
-                                    System.out.println("Found:");
-                                    for(String s:newLadder){
-                                        System.out.print(s);
-                                        System.out.print(' ');
-                                    }
-                                    System.exit(0);
+                                    return newLadder;
                                 }
                                 partialLadders.addLast(newLadder);
                             }
@@ -91,6 +88,7 @@ public class WordLadder {
             }
         }
         System.out.println("Sorry but nothing found.");
+        return null;
     };
     boolean isInWords(String s){
         return Words.contains(s);
@@ -98,16 +96,36 @@ public class WordLadder {
     public static void main (String [] args){
         WordLadder w=new WordLadder();
         Scanner in=new Scanner(System.in);
-        System.out.println("Word #1 (or Enter to quit):");
+        LinkedList<String> res;
+        System.out.println("Word #1 (or Enter to quit, enter \"####\" to run unit test):");
         String word1,word2;
         word1=in.nextLine();
         if(word1.isEmpty())
             System.exit(0);
-        System.out.println("Word #2 (or Enter to quit):");
+        else if(word1.equals("####")){
+            w.test();
+            System.exit(0);
+        }
+        System.out.println("Word #2 (or Enter to quit, enter \"####\" to run unit test)):");
         word2=in.nextLine();
         if(word2.isEmpty())
             System.exit(0);
-        w.search(word2,word1);
+        else if(word1.equals("####")){
+            w.test();
+            System.exit(0);
+        }
+        res=w.search(word2,word1);
+        for(String s:res)
+            System.out.print(s+" ");
+    }
+    void test(){
+        LinkedList<String> res;
+        System.out.println("Test input : code data\n Expected result length:5");
+        res=search("code","data");
+        System.out.println("Result length = "+res.size()+" ,details: ");
+        for(String s: res){
+            System.out.print(s+' ');
+        }
     }
 }
 
