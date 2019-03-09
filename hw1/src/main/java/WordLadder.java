@@ -4,7 +4,7 @@ public class WordLadder {
     String filename;
     Set<String> Words=new HashSet<String>();
     LinkedList<LinkedList<String>> partialLadders=new LinkedList<LinkedList<String>>();
-    WordLadder(){
+    public WordLadder(){
         System.out.println("Welcome to Word Ladder.");
         System.out.println("Now Please enter dictionary name:");
         Scanner in=new Scanner(System.in);
@@ -39,7 +39,39 @@ public class WordLadder {
         }
         System.out.println("Input finished. Initialization down.");
     }
-    LinkedList<String> search(String word2,String word1){
+    public WordLadder(String s){
+        filename=s;
+        FileInputStream ifstream;
+        System.out.println("Please wait a few seconds...");
+        try{
+            ifstream= new FileInputStream(filename);
+            int ch;
+            char c;
+            char[] word=new char[100];
+            int index=0;
+            int ct=0;
+            while((ch=ifstream.read())!=-1){
+                c=(char)ch;
+                if(Character.isLetter(c)){
+                    word[index++]=c;
+                }
+                else{
+                    Words.add(new String(word,0,index));
+                    index=0;
+                }
+            }
+            if(index!=0)
+            {
+                Words.add(new String(word,0,index));
+                index=0;
+            }
+        }catch(Exception e){
+            System.err.println("Can't open file "+filename);
+            System.exit(1);
+        }
+        System.out.println("Input finished. Initialization down.");
+    }
+    public int search(String word2,String word1){
         if(!isInWords(word1)||!isInWords(word2)){
             System.out.println(word1+" or "+word2+" not in "+filename);
             System.exit(1);
@@ -75,7 +107,10 @@ public class WordLadder {
                                 LinkedList<String> newLadder=new LinkedList<String>(tempLadder);
                                 newLadder.add(newLast);
                                 if(newLast.equals(word1)){
-                                    return newLadder;
+                                    for(String s:newLadder)
+                                        System.out.print(s+" ");
+                                    System.out.println();
+                                    return newLadder.size();
                                 }
                                 partialLadders.addLast(newLadder);
                             }
@@ -88,7 +123,7 @@ public class WordLadder {
             }
         }
         System.out.println("Sorry but nothing found.");
-        return null;
+        return -1;
     };
     boolean isInWords(String s){
         return Words.contains(s);
@@ -96,36 +131,17 @@ public class WordLadder {
     public static void main (String [] args){
         WordLadder w=new WordLadder();
         Scanner in=new Scanner(System.in);
-        LinkedList<String> res;
-        System.out.println("Word #1 (or Enter to quit, enter \"####\" to run unit test):");
+        System.out.println("Word #1 (or Enter to quit):");
         String word1,word2;
         word1=in.nextLine();
-        if(word1.isEmpty())
+        if(word1.length()==0)
             System.exit(0);
-        else if(word1.equals("####")){
-            w.test();
-            System.exit(0);
-        }
-        System.out.println("Word #2 (or Enter to quit, enter \"####\" to run unit test)):");
+        System.out.println("Word #2 (or Enter to quit):");
         word2=in.nextLine();
-        if(word2.isEmpty())
+        if(word2.length()==0)
             System.exit(0);
-        else if(word1.equals("####")){
-            w.test();
-            System.exit(0);
-        }
-        res=w.search(word2,word1);
-        for(String s:res)
-            System.out.print(s+" ");
-    }
-    void test(){
-        LinkedList<String> res;
-        System.out.println("Test input : code data\n Expected result length:5");
-        res=search("code","data");
-        System.out.println("Result length = "+res.size()+" ,details: ");
-        for(String s: res){
-            System.out.print(s+' ');
-        }
+        w.search(word2,word1);
     }
 }
+
 
