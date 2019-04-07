@@ -5,14 +5,9 @@ public class WordLadder {
     Set<String> Words=new HashSet<String>();
     LinkedList<LinkedList<String>> partialLadders=new LinkedList<LinkedList<String>>();
     public WordLadder(){
-        System.out.println("Welcome to Word Ladder.");
-        System.out.println("Now Please enter dictionary name:");
-        Scanner in=new Scanner(System.in);
-        filename=in.next();
         FileInputStream ifstream;
-        System.out.println("Please wait a few seconds...");
         try{
-            ifstream= new FileInputStream(filename);
+            ifstream= new FileInputStream("dictionary.txt");
             int ch;
             char c;
             char[] word=new char[100];
@@ -37,41 +32,8 @@ public class WordLadder {
             System.err.println("Can't open file "+filename);
             System.exit(1);
         }
-        System.out.println("Input finished. Initialization down.");
     }
-    public WordLadder(String s){
-        filename=s;
-        FileInputStream ifstream;
-        System.out.println("Please wait a few seconds...");
-        try{
-            ifstream= new FileInputStream(filename);
-            int ch;
-            char c;
-            char[] word=new char[100];
-            int index=0;
-            int ct=0;
-            while((ch=ifstream.read())!=-1){
-                c=(char)ch;
-                if(Character.isLetter(c)){
-                    word[index++]=c;
-                }
-                else{
-                    Words.add(new String(word,0,index));
-                    index=0;
-                }
-            }
-            if(index!=0)
-            {
-                Words.add(new String(word,0,index));
-                index=0;
-            }
-        }catch(Exception e){
-            System.err.println("Can't open file "+filename);
-            System.exit(1);
-        }
-        System.out.println("Input finished. Initialization down.");
-    }
-    public int search(String word2,String word1){
+    public List<String> search(String word2, String word1){
         if(!isInWords(word1)||!isInWords(word2)){
             System.out.println(word1+" or "+word2+" not in "+filename);
             System.exit(1);
@@ -107,10 +69,7 @@ public class WordLadder {
                                 LinkedList<String> newLadder=new LinkedList<String>(tempLadder);
                                 newLadder.add(newLast);
                                 if(newLast.equals(word1)){
-                                    for(String s:newLadder)
-                                        System.out.print(s+" ");
-                                    System.out.println();
-                                    return newLadder.size();
+                                    return newLadder;
                                 }
                                 partialLadders.addLast(newLadder);
                             }
@@ -123,7 +82,7 @@ public class WordLadder {
             }
         }
         System.out.println("Sorry but nothing found.");
-        return -1;
+        return null;
     };
     boolean isInWords(String s){
         return Words.contains(s);
@@ -140,7 +99,8 @@ public class WordLadder {
         word2=in.nextLine();
         if(word2.length()==0)
             System.exit(0);
-        w.search(word2,word1);
+        List<String> res=w.search(word2,word1);
+        System.out.println(res);
     }
 }
 

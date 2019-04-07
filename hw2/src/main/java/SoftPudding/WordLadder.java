@@ -37,9 +37,9 @@ public class WordLadder {
         }
     }
     public List<String> search(String word2, String word1){
+        partialLadders= new LinkedList<LinkedList<String>>();
         if(!isInWords(word1)||!isInWords(word2)){
-            System.out.println(word1+" or "+word2+" not in "+filename);
-            System.exit(1);
+            return Arrays.asList(word1+" or "+word2+" not in "+filename);
         }
 
         LinkedList<String> w0=new LinkedList<String>();
@@ -84,26 +84,11 @@ public class WordLadder {
                 }
             }
         }
-        System.out.println("Sorry but nothing found.");
-        return null;
+
+        return Arrays.asList("Sorry but nothing found.");
     };
     boolean isInWords(String s){
         return Words.contains(s);
-    }
-    public static void main (String [] args){
-        WordLadder w=new WordLadder();
-        Scanner in=new Scanner(System.in);
-        System.out.println("Word #1 (or Enter to quit):");
-        String word1,word2;
-        word1=in.nextLine();
-        if(word1.length()==0)
-            System.exit(0);
-        System.out.println("Word #2 (or Enter to quit):");
-        word2=in.nextLine();
-        if(word2.length()==0)
-            System.exit(0);
-        List<String> res=w.search(word2,word1);
-        System.out.println(res);
     }
 }
 

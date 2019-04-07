@@ -10,7 +10,7 @@ public class WordLadderTest {
     static WordLadder w;
     @Before
     public void prep(){
-        w=new WordLadder("dictionary.txt");
+        w=new WordLadder();
     }
 
     @Test

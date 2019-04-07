@@ -14,7 +14,7 @@ import java.util.List;
 @RequestMapping(path="/wl") // This means URL's start with /wl
 public class WLController{
 
-    private WordLadder wl= new WordLadder();
+    static private WordLadder wl= new WordLadder();
 
     @CrossOrigin(origins = "*" ,maxAge = 3600)
     @GetMapping(path="/search")
