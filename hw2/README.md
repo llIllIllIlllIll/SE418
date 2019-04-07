@@ -12,3 +12,5 @@ http://106.12.89.107:6666/wl/search?w1=have&w2=lack
 ## 方案2
 您可以用maven引入我的project。xml文件就在hw2目录下。
 然后输入mvnw spring-boot:run，您可以在本地的6666端口下进行测试。
+api和我的服务器上是一样的，请输入
+http://localhost:6666/wl/search?w1=?1&w2=?2

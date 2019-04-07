@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b709c1-e1ef-4051-a90b-b19114bf7f8d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../hw1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/src/main/java/WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/src/main/java/WordLadder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/src/test/java/WordLadderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/src/test/java/WordLadderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/target/classes/WordLadder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/target/classes/WordLadder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/target/test-classes/WordLadderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/target/test-classes/WordLadderTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SoftPudding/WLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SoftPudding/WLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SoftPudding/WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SoftPudding/WordLadder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SoftPudding/WordLadder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="979">
-              <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+            <state relative-caret-position="117">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,8 +91,8 @@
         <option value="$PROJECT_DIR$/src/main/java/SoftPudding/Application.java" />
         <option value="$PROJECT_DIR$/src/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/SoftPudding/WordLadder.java" />
         <option value="$PROJECT_DIR$/src/main/java/SoftPudding/WLController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoftPudding/WordLadder.java" />
       </list>
     </option>
   </component>
@@ -164,7 +157,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554640881262" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554643460298" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -203,16 +196,15 @@
       <workItem from="1554634997241" duration="134000" />
       <workItem from="1554635201347" duration="76000" />
       <workItem from="1554635337113" duration="2243000" />
-      <workItem from="1554638009337" duration="2523000" />
+      <workItem from="1554638009337" duration="3252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4976000" />
+    <option name="totallyTimeSpent" value="5705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.261924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -291,8 +283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SoftPudding/WordLadder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="979">
-          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+        <state relative-caret-position="117">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
