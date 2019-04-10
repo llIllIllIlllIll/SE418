@@ -32,6 +32,7 @@ chrome在之前就已经宣布会禁止Document.write()方法的使用。Documen
 
 
 
+
 ## <b>Reference</b>
 [为什么要避免使用document.write](https://www.zcfy.cc/article/why-you-should-avoid-using-document-write-specifically-for-scripts-injection-1464.html)
 
