@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HW2.iml" filepath="$PROJECT_DIR$/HW2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gs-actuator-service.iml" filepath="$PROJECT_DIR$/gs-actuator-service.iml" />
     </modules>
   </component>
 </project>
