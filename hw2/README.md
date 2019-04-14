@@ -26,3 +26,4 @@ unit test有三个部分，分别测试word ladder,actuator以及security。
 ![](rm3.png)
 #### ActuatorTest
 测试了相应端口是否开放。
+事实上自己跑跑就知道了。
