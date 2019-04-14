@@ -1,12 +1,6 @@
 package SoftPudding;
-
-import jdk.internal.jline.internal.TestAccessible;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.context.annotation.RequestScope;
 import java.util.List;
 
 @CrossOrigin(origins = "*" ,maxAge = 3600)
