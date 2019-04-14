@@ -3,22 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="69b709c1-e1ef-4051-a90b-b19114bf7f8d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SoftPudding/WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SoftPudding/WordLadder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SoftPudding/ActuatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SoftPudding/ActuatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SoftPudding/WordLadderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SoftPudding/WordLadderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SoftPudding/WordLadder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SoftPudding/WordLadder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/wordladder.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SoftPudding/WordLadderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SoftPudding/WordLadderTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            <state relative-caret-position="19">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -86,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SoftPudding/WordLadderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="24" column="28" selection-end-line="51" />
+            <state relative-caret-position="258">
+              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SoftPudding/ActuatorTest.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -164,18 +150,18 @@
         <option value="$PROJECT_DIR$/src/test/java/WordLadderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SoftPudding/SecurityTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SoftPudding/WLController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/SoftPudding/WordLadderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SoftPudding/WordLadder.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/SoftPudding/ActuatorTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
-    <option name="y" value="1" />
-    <option name="width" value="1932" />
-    <option name="height" value="1085" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="34" />
+    <option name="y" value="-21" />
+    <option name="width" value="1850" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -268,7 +254,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555250980594" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555253635783" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -302,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SecurityTest">
+  <component name="RunManager" selected="JUnit.ActuatorTest">
     <configuration name="ActuatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordladder" />
       <extension name="coverage">
@@ -396,9 +382,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ActuatorTest" />
         <item itemvalue="JUnit.SecurityTest" />
         <item itemvalue="JUnit.WordLadderTest" />
-        <item itemvalue="JUnit.ActuatorTest" />
         <item itemvalue="JUnit.ActuatorTest.shouldReturn200WhenSendingRequestToManagementEndpoint" />
         <item itemvalue="JUnit.ActuatorTest.shouldReturn200WhenSendingRequestToController" />
       </list>
@@ -416,29 +402,11 @@
       <updated>1555054089000</updated>
       <workItem from="1555054091478" duration="3484000" />
       <workItem from="1555147946642" duration="2598000" />
-      <workItem from="1555225551638" duration="12623000" />
+      <workItem from="1555225551638" duration="14453000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ActuatorTest - 2019.04.14 at 21h 00m 59s.xml">
-      <configuration name="ActuatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ActuatorTest_shouldReturn200WhenSendingRequestToController - 2019.04.14 at 21h 05m 01s.xml">
-      <configuration name="ActuatorTest.shouldReturn200WhenSendingRequestToController" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ActuatorTest_shouldReturn200WhenSendingRequestToManagementEndpoint - 2019.04.14 at 21h 06m 14s.xml">
-      <configuration name="ActuatorTest.shouldReturn200WhenSendingRequestToManagementEndpoint" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ActuatorTest_shouldReturn200WhenSendingRequestToManagementEndpoint - 2019.04.14 at 21h 09m 12s.xml">
-      <configuration name="ActuatorTest.shouldReturn200WhenSendingRequestToManagementEndpoint" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ActuatorTest_shouldReturn200WhenSendingRequestToManagementEndpoint - 2019.04.14 at 21h 18m 48s.xml">
-      <configuration name="ActuatorTest.shouldReturn200WhenSendingRequestToManagementEndpoint" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ActuatorTest_shouldReturn200WhenSendingRequestToManagementEndpoint - 2019.04.14 at 21h 22m 31s.xml">
-      <configuration name="ActuatorTest.shouldReturn200WhenSendingRequestToManagementEndpoint" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordLadderTest - 2019.04.14 at 21h 35m 08s.xml">
       <configuration name="WordLadderTest" configurationId="JUnit" />
     </history-entry>
@@ -451,9 +419,27 @@
     <history-entry file="ActuatorTest - 2019.04.14 at 21h 41m 19s.xml">
       <configuration name="ActuatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WordLadderTest - 2019.04.14 at 22h 07m 51s.xml">
+      <configuration name="WordLadderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecurityTest - 2019.04.14 at 22h 09m 29s.xml">
+      <configuration name="SecurityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActuatorTest - 2019.04.14 at 22h 34m 55s.xml">
+      <configuration name="ActuatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActuatorTest - 2019.04.14 at 22h 36m 24s.xml">
+      <configuration name="ActuatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActuatorTest - 2019.04.14 at 22h 37m 15s.xml">
+      <configuration name="ActuatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActuatorTest - 2019.04.14 at 22h 49m 13s.xml">
+      <configuration name="ActuatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18981000" />
+    <option name="totallyTimeSpent" value="20811000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,9 +451,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="1" width="1288" height="723" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.46666667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15844786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -475,17 +461,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.36131388" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3604061" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32664233" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32846716" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39963505" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32006633" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3282572" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3993232" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32846716" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.32846716" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32669982" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32669982" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.05076142" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5721393" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32846716" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32846716" />
@@ -579,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SoftPudding/MvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -606,18 +585,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SoftPudding/ActuatorTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SoftPudding/WordLadderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="24" column="28" selection-end-line="51" />
+        <state relative-caret-position="258">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SoftPudding/ActuatorTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
