@@ -1,3 +1,5 @@
 SoftPudding\Application.class
 SoftPudding\WLController.class
 SoftPudding\WordLadder.class
+SoftPudding\WebSecurityConfig.class
+SoftPudding\MvcConfig.class

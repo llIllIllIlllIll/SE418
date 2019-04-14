@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45273e9f-9d86-4adf-a24c-3ef2447865ee" name="Default Changelist" comment="" />
+    <list default="true" id="69b709c1-e1ef-4051-a90b-b19114bf7f8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SoftPudding/SecurityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SoftPudding/WordLadderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gs-actuator-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wordladder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SoftPudding/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SoftPudding/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SoftPudding/WLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SoftPudding/WLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SoftPudding/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SoftPudding/MvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SoftPudding/WLController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SoftPudding/WLController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,12 +24,62 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SoftPudding/MvcConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SoftPudding/SecurityTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/.name">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SoftPudding/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SoftPudding/WLController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+            <state relative-caret-position="182">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,19 +88,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SoftPudding/WordLadderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dictionary.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="106">
+              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,11 +102,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SoftPudding/WordLadder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="301">
+              <caret line="49" column="20" selection-end-line="95" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SoftPudding/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-140">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -58,60 +137,76 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="XHTML File" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/SoftPudding/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SoftPudding/WLController.java" />
         <option value="$PROJECT_DIR$/src/main/java/SoftPudding/WordLadder.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/SoftPudding/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/SecurityTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoftPudding/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WordLadderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SoftPudding/SecurityTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoftPudding/WLController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SoftPudding/WordLadderTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="15" />
-    <option name="y" value="30" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-6" />
+    <option name="y" value="4" />
     <option name="width" value="1890" />
     <option name="height" value="1020" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="gs-actuator-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="initial" type="462c0819:PsiDirectoryNode" />
+              <item name="hw2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gs-actuator-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="initial" type="462c0819:PsiDirectoryNode" />
+              <item name="hw2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gs-actuator-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="initial" type="462c0819:PsiDirectoryNode" />
+              <item name="hw2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gs-actuator-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="initial" type="462c0819:PsiDirectoryNode" />
+              <item name="hw2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gs-actuator-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="initial" type="462c0819:PsiDirectoryNode" />
+              <item name="hw2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -119,22 +214,56 @@
             </path>
             <path>
               <item name="gs-actuator-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="initial" type="462c0819:PsiDirectoryNode" />
+              <item name="hw2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gs-actuator-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gs-actuator-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gs-actuator-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gs-actuator-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SoftPudding" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555070858225" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555244527688" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -144,11 +273,19 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="SoftPudding" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\11570\Desktop\gs-actuator-service-master\initial" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -160,77 +297,212 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.WordLadderTest.noParamWordLadderShouldReturnDefaultMessage">
+    <configuration name="SecurityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordladder" />
+      <option name="PACKAGE_NAME" value="SoftPudding" />
+      <option name="MAIN_CLASS_NAME" value="SoftPudding.SecurityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordLadderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordladder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SoftPudding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SoftPudding" />
+      <option name="MAIN_CLASS_NAME" value="SoftPudding.WordLadderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordLadderTest.noParamWordLadderShouldReturnDefaultMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordladder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SoftPudding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SoftPudding" />
+      <option name="MAIN_CLASS_NAME" value="SoftPudding.WordLadderTest" />
+      <option name="METHOD_NAME" value="noParamWordLadderShouldReturnDefaultMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wordladder" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="SoftPudding.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gs-actuator-service" />
+      <module name="wordladder" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.HelloWorldApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WordLadderTest.noParamWordLadderShouldReturnDefaultMessage" />
+        <item itemvalue="JUnit.WordLadderTest" />
+        <item itemvalue="JUnit.SecurityTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="45273e9f-9d86-4adf-a24c-3ef2447865ee" name="Default Changelist" comment="" />
+      <changelist id="69b709c1-e1ef-4051-a90b-b19114bf7f8d" name="Default Changelist" comment="" />
       <created>1555054089000</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555054089000</updated>
       <workItem from="1555054091478" duration="3484000" />
+      <workItem from="1555147946642" duration="2598000" />
+      <workItem from="1555225551638" duration="6756000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="WordLadderTest - 2019.04.14 at 20h 09m 40s.xml">
+      <configuration name="WordLadderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordLadderTest_noParamWordLadderShouldReturnDefaultMessage - 2019.04.14 at 20h 10m 25s.xml">
+      <configuration name="WordLadderTest.noParamWordLadderShouldReturnDefaultMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordLadderTest_noParamWordLadderShouldReturnDefaultMessage - 2019.04.14 at 20h 11m 44s.xml">
+      <configuration name="WordLadderTest.noParamWordLadderShouldReturnDefaultMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordLadderTest_noParamWordLadderShouldReturnDefaultMessage - 2019.04.14 at 20h 12m 27s.xml">
+      <configuration name="WordLadderTest.noParamWordLadderShouldReturnDefaultMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordLadderTest_noParamWordLadderShouldReturnDefaultMessage - 2019.04.14 at 20h 13m 02s.xml">
+      <configuration name="WordLadderTest.noParamWordLadderShouldReturnDefaultMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordLadderTest - 2019.04.14 at 20h 14m 12s.xml">
+      <configuration name="WordLadderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordLadderTest - 2019.04.14 at 20h 14m 53s.xml">
+      <configuration name="WordLadderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordLadderTest_noParamWordLadderShouldReturnDefaultMessage - 2019.04.14 at 20h 15m 53s.xml">
+      <configuration name="WordLadderTest.noParamWordLadderShouldReturnDefaultMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordLadderTest - 2019.04.14 at 20h 16m 33s.xml">
+      <configuration name="WordLadderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordLadderTest_noParamWordLadderShouldReturnDefaultMessage - 2019.04.14 at 20h 18m 58s.xml">
+      <configuration name="WordLadderTest.noParamWordLadderShouldReturnDefaultMessage" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3484000" />
+    <option name="totallyTimeSpent" value="13114000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="7" />
+    <frame x="-4" y="3" width="1260" height="680" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29201332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3294702" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.36131388" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32664233" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32846716" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39963505" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32846716" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32846716" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3248175" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32846716" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32846716" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.32846716" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/SoftPudding/Application.java">
+    <entry file="file://$PROJECT_DIR$/dictionary.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="171">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/HelloWorldApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.xhtml" />
+    <entry file="file://$PROJECT_DIR$/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SoftPudding/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -239,42 +511,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SoftPudding/WordLadder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="301">
+          <caret line="49" column="20" selection-end-line="95" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary.txt">
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SoftPudding/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/HelloWorldApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SoftPudding/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="-140">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SoftPudding/SecurityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SoftPudding/WLController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        <state relative-caret-position="182">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SoftPudding/WordLadderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        <state relative-caret-position="106">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
