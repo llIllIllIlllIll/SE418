@@ -4,8 +4,11 @@
 密码：password
 ## 测试用服务器：
 word ladder api:
+
 106.12.89.107:9000/wl/search?w1=[WORD1]&w2=[WORD2]
+
 spring-boot actuator:
+
 106.12.89.107:9001/actuator/health
 ## 本地项目结构：
 ![](rm1.png)
