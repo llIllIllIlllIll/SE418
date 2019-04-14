@@ -37,6 +37,7 @@ public class WordLadder {
         }
     }
     public List<String> search(String word2, String word1){
+        int count =0;
         partialLadders= new LinkedList<LinkedList<String>>();
         if(!isInWords(word1)||!isInWords(word2)){
             return Arrays.asList(word1+" or "+word2+" not in "+filename);
@@ -46,6 +47,9 @@ public class WordLadder {
         w0.add(word2);
         partialLadders.add(w0);
         while(!partialLadders.isEmpty()){
+            count++;
+            if(count>=word1.length()*500)
+                return Arrays.asList("Can not find a proper path.");
             LinkedList<String> tempLadder=partialLadders.removeFirst();
             String last=tempLadder.getLast();
             char[] lastNei=last.toCharArray();
