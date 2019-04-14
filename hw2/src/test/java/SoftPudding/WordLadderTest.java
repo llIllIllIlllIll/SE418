@@ -2,9 +2,9 @@ package SoftPudding;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
+import org.hamcrest.Matchers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,11 +26,26 @@ public class WordLadderTest {
 
     @Test
     @WithMockUser(username="user",roles={"USER"})
-    public void noParamWordLadderShouldReturnDefaultMessage() throws Exception {
+    public void normalResulrOfDogAndCat() throws Exception {
 
         this.mockMvc.perform(get("/wl/search?w1=cat&w2=dog")).andDo(print()).andExpect(status().isOk())
-                .andExpect(jsonPath("$.*").value(Arrays.asList("cat","cot","dot","dog")));
+                .andExpect(content().string("[\"cat\",\"cot\",\"dot\",\"dog\"]"));
+    }
+
+    @Test
+    @WithMockUser(username="user",roles={"USER"})
+    public void wordNotInDictionary() throws Exception {
+
+        this.mockMvc.perform(get("/wl/search?w1=softpudding&w2=softpudding")).andDo(print()).andExpect(status().isOk())
+                .andExpect(content().string("[\"softpudding or softpudding not in dictionary.txt\"]" ));
     }
 
 
+    @Test
+    @WithMockUser(username="user",roles={"USER"})
+    public void noPath() throws Exception {
+
+        this.mockMvc.perform(get("/wl/search?w1=test&w2=love")).andDo(print()).andExpect(status().isOk())
+                .andExpect(content().string("[\"Can not find a proper path.\"]" ));
+    }
 }
