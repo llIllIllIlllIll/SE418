@@ -1,42 +1,51 @@
-
 package SoftPudding;
 
-import java.util.Map;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
+import org.hamcrest.Matchers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.web.client.TestRestTemplate;
-import org.springframework.boot.web.server.LocalServerPort;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.test.context.support.WithMockUser;
-import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.web.servlet.MockMvc;
 
-import static org.assertj.core.api.BDDAssertions.then;
+import java.util.Arrays;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@TestPropertySource(properties = {"management.port=0"})
+@SpringBootTest
+@AutoConfigureMockMvc
 public class ActuatorTest {
 
-    @Value("${local.management.port}")
-    private int mgt;
-
     @Autowired
-    private TestRestTemplate testRestTemplate;
+    private MockMvc mockMvc;
 
     @Test
     @WithMockUser(username="user",roles={"USER"})
-    public void shouldReturn200WhenSendingRequestToManagementEndpoint() throws Exception {
-        @SuppressWarnings("rawtypes")
-        ResponseEntity<Map> entity = this.testRestTemplate.getForEntity(
-                "http://localhost:" + this.mgt + "/actuator/health", Map.class);
+    public void normalResulrOfDogAndCat() throws Exception {
 
-        then(entity.getStatusCode()).isEqualTo(HttpStatus.OK);
+        this.mockMvc.perform(get("/wl/search?w1=cat&w2=dog")).andDo(print()).andExpect(status().isOk())
+                .andExpect(content().string("[\"cat\",\"cot\",\"dot\",\"dog\"]"));
     }
 
+    @Test
+    @WithMockUser(username="user",roles={"USER"})
+    public void wordNotInDictionary() throws Exception {
+
+        this.mockMvc.perform(get("/wl/search?w1=softpudding&w2=softpudding")).andDo(print()).andExpect(status().isOk())
+                .andExpect(content().string("[\"softpudding or softpudding not in dictionary.txt\"]" ));
+    }
+
+
+    @Test
+    @WithMockUser(username="user",roles={"USER"})
+    public void noPath() throws Exception {
+
+        this.mockMvc.perform(get("/wl/search?w1=test&w2=love")).andDo(print()).andExpect(status().isOk())
+                .andExpect(content().string("[\"Can not find a proper path.\"]" ));
+    }
 }
