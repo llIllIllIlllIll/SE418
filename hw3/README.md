@@ -10,7 +10,7 @@ docker run --network mynet --name authhost -p 9002:9002 softpudding/se418hw3:aut
 - B. 打开浏览器进行测试：
 1. 输入 http://localhost:9000/wl/search?w1=dog&w2=cat
 由于未登陆，会出现提示：You Have Not Logged In.
-2. 输入 http://localhost:9001/wl/login?name=softpudding&pwd=123456
+2. 输入 http://localhost:9000/wl/login?name=softpudding&pwd=123456
 页面会返回true，表示登陆成功。
 3. 在此输入 http://localhost:9000/wl/search?w1=dog&w2=cat 会得到正确结果。
 
