@@ -2,6 +2,8 @@ package SoftPudding.Container;
 import SoftPudding.Object.MyRequest;
 import java.util.*;
 public class MyContainer implements Runnable{
+    static int ID =0;
+    private int containerID = ++ID;
     private Thread thread;
     //The gap between each check of the container
     private final double CHECKGAP = 0.5;
@@ -24,7 +26,7 @@ public class MyContainer implements Runnable{
         int ct =0;
         int rounds=0;
         while(!requests.isEmpty()){
-            System.out.println("ROUND"+ rounds+++":");
+            System.out.println("CONTAINER "+containerID+" ROUND"+ rounds+++":");
             ct=0;
             Iterator<MyRequest> myRequestIterator= requests.iterator();
             while(myRequestIterator.hasNext()){
@@ -37,12 +39,12 @@ public class MyContainer implements Runnable{
                 }
                 if(mr.getCurrentWaitTime()>TIMEOUT)
                 {
-                    mr.requestAbandoned();
+                    mr.requestAbandoned(containerID);
                     myRequestIterator.remove();
                 }
                 else{
                     //handle request
-                    threads.add(mr.start());
+                    threads.add(mr.start(containerID));
                     ct++;
                     myRequestIterator.remove();
                 }
@@ -52,7 +54,8 @@ public class MyContainer implements Runnable{
                 for(Thread tr: threads){
                     tr.join();
                 }
-                System.out.println("ROUND "+(rounds-1)+": Container handled "+(ct)+" requests.\n\n");
+                threads.clear();
+                System.out.println("CONTAINER "+containerID+"ROUND "+(rounds-1)+": Container handled "+(ct)+" requests.\n\n");
                 Thread.sleep((long)(CHECKGAP*1000));
             }
             catch(InterruptedException e){

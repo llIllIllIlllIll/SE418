@@ -5,7 +5,7 @@ import SoftPudding.Object.MyRequest;
 
 import java.util.Date;
 
-public class MyEvaluation {
+public class MyEvaluation_Multiconsumers {
     static MyContainer myContainer= new MyContainer();
     static public void main(String [] args){
         for(int i=0;i<20;i++){
